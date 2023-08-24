@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Footflops</title>
+    <!-- favicon icon -->
+    <link rel="icon" href="img/favicon.png">
+    <!-- font awesome sheet -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap sheet -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- zoom img -->
+    <link rel="stylesheet" href="css/magiczoomplus.css">
+    <!-- Fancy box -->
+    <!-- <link rel="stylesheet" href="css/cdnjs.cloudflare.com_ajax_libs_fancybox_2.1.5_jquery.fancybox.min.css"> -->
+    <!-- style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive sheet -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- start loader -->
+    <div class="preloaders">
+        <div>
+            <img src="img/loading.gif" alt="">
+        </div>
+    </div>
+    <!-- end loader -->
+    <!-- start header -->
+    <header class="header">
+        <!-- start navbar -->
+        <nav class="top_header d-flex align-items-center">
+            <div class="container-fluid d-flex flex-wrap justify-content-around">
+                <div class="col-xxl-4 col-lg-6 col-12 text-center top_header_border">
+                    <span><a href="#" class="top_header_text"><i class="fa-solid fa-check me-2 d-lg-inline-block d-none"></i>Free Worldwide Delivery On Most Orders Over £39*</a></span>
+                </div>
+                <div class="col-xxl-4 col-lg-6 d-none d-lg-block text-center top_header_border">
+                    <span><a href="#" class="top_header_text"><i class="fa-solid fa-check me-2"></i>Order Before 2pm For Next Working Day Delivery</a></span>
+                </div>
+                <div class="col-xxl-4 d-none d-xxl-block text-center">
+                    <span><a href="#" class="top_header_text"><i class="fa-solid fa-check me-2"></i>We Price Match to Give You The Best Deals</a></span>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar -->
+        <!-- start logo header -->
+        <nav class="navbar navbar-expand-lg p-0 sticky" aria-label="Offcanvas navbar large">
+            <div class="container-fluid mx-xl-5 mx-lg-3 secound_header">
+                <div class="logo_header_bg  order-lg-1 order-sm-2 order-0">
+                    <a class="navbar-brand logo_header me-0" href="#">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars bars_btn"></i>
+                </button>
+                <div class="offcanvas offcanvas-start order-lg-2 order-sm-1 order-0" tabindex="-1" data-bs-backdrop="static" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+                    <div class="offcanvas-header justify-content-end">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-center flex-grow-1 main_menu">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                                <ul class="dropdown-menu sub_menu">
+                                    <li><a class="dropdown-item ps-0" href="#"><h6 class="sub_menu_heading">Product Type</h6></a></li>
+                                    <li><a class="dropdown-item" href="shop.html">Collection</a></li>
+                                    <li><a class="dropdown-item" href="#">In-Stock Product</a></li>
+                                    <li><a class="dropdown-item" href="#">Group Product</a></li>
+                                    <li><a class="dropdown-item" href="#">Variation Product</a></li>
+                                    <li><a class="dropdown-item" href="#">External/Affiliate Product</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="about.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="gellery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                                <ul class="dropdown-menu sub_menu">
+                                    <li><a class="dropdown-item ps-0" href="#"><h6 class="sub_menu_heading">Shortcode Pages</h6></a></li>
+                                    <li><a class="dropdown-item" href="product.html">products</a></li>
+                                    <li><a class="dropdown-item" href="#">Tabs</a></li>
+                                    <li><a class="dropdown-item" href="contact.html">Map & Contact</a></li>
+                                    <li><a class="dropdown-item" href="#">Message Boxes</a></li>
+                                    <li><a class="dropdown-item" href="#">Pricing table</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center">
+                            <ul class="header_icon d-block">
+                                <li><a href="#"><i class="bi bi-search"></i></a></li>
+                                <li><a href="wishlist.html"><i class="bi bi-heart"></i></a></li>
+                                <li><a href="#"><i class="bi bi-arrow-clockwise"></i></a></li>
+                                <li><a href="userlogin.html"><i class="bi bi-person"></i></a></li>
+                                <li><a href="cart.html"><i class="bi bi-cart"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center d-lg-none order-3 ms-auto">
+                    <ul class="header_icon d-block">
+                        <li><a href="#"><i class="bi bi-search"></i></a></li>
+                        <li><a href="wishlist.html"><i class="bi bi-heart"></i></a></li>
+                        <li><a href="#"><i class="bi bi-arrow-clockwise"></i></a></li>
+                        <li><a href="userlogin.html"><i class="bi bi-person"></i></a></li>
+                        <li><a href="cart.html"><i class="bi bi-cart"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end logo header -->
+    </header>  
+    <!-- end header -->
+    <main>
+        <div class="container-fluid">
+            <div class="row mx_5">
+                <div class="hero_section">
+                    <h1 class="entry_title">Pages</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0">
+                          <li class="breadcrumb-item">Home  »</li>
+                          <li class="breadcrumb-item">Pages »</li>
+                          <li class="breadcrumb-item">Products</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row mx_5">
+                <div class="col-md-5 col-12">
+                    <div>
+                        <div class="zoom_imgbg">
+                            <div class="product-img">
+                                <div class="product1">
+                                    <a href="img/pro-page1.jpg" class="MagicZoom" data-options="zoomPosition: inner">
+                                        <img src="img/pro-page1.jpg">
+                                    </a>
+                                </div>
+                                <div class="product1">
+                                    <a href="img/pro-page2.jpg" class="MagicZoom" data-options="zoomPosition: inner">
+                                        <img src="img/pro-page2.jpg">
+                                    </a>
+                                </div>
+                                <div class="product1">
+                                    <a href="img/pro-page3.jpg" class="MagicZoom" data-options="zoomPosition: inner">
+                                        <img src="img/pro-page3.jpg">
+                                    </a>
+                                </div>
+                                <div class="product1">
+                                    <a href="img/pro-page4.jpg" class="MagicZoom" data-options="zoomPosition: inner">
+                                        <img src="img/pro-page4.jpg">
+                                    </a>
+                                </div>
+                                <div class="product1">
+                                    <a href="img/pro-page5.jpg" class="MagicZoom" data-options="zoomPosition: inner">
+                                        <img src="img/pro-page5.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="thumbnail_img">
+                            <div class="thumbnail">
+                                <div>
+                                    <img src="img/pro-page1.jpg" alt="" width="100%">
+                                </div>
+                                <div>
+                                    <img src="img/pro-page2.jpg" alt="" width="100%">
+                                </div>
+                                <div>
+                                    <img src="img/pro-page3.jpg" alt="" width="100%">
+                                </div>
+                                <div>
+                                    <img src="img/pro-page4.jpg" alt="" width="100%">
+                                </div>
+                                <div>
+                                    <img src="img/pro-page5.jpg" alt="" width="100%">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 col-12">
+                    <div class="pro_detail_title">
+                        <h1>Blue Style Sneakers</h1>
+                        <p class="pro_detail_price">£56.00</p>
+                        <p class="pro_detail_smalltext">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat.
+                        </p>
+                        <p class="pro_detail_instock"><i class="fa-solid fa-circle-check me-2"></i>3 in stock</p>
+                        <div class="pro_page_counter d-flex flex-wrap">
+                            <div class="spinners_added d-inline-block"><span>Qty:</span>
+                                <input type="txt" class="input_counter" value="0" id="box">
+                                <div class="d-inline-block counter_btn">
+                                    <button class="plus" onclick="counter('+')">+</button>
+                                    <button class="minus" onclick="counter('-')">-</button>
+                                </div>
+                            </div>
+                            <div>
+                                <a href="cart.html" class="btn_addto_cart">Add To Cart</a>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="wishlist.html"><span class="pro_addto_wish me-3"><i class="bi bi-heart fs-6 align-middle"></i> Add to wishlist</span></a>
+                            <span class="pro_compare"><i class="fa-sharp fa-solid fa-chart-area fs-6 align-middle"></i> Compare</span>
+                        </div>
+                        <div class="product_meta">
+                            <span class="sku_wrapper">SKU: <span class="sku">MOL85</span></span>
+                            <span class="posted_in">Categories: <a href="#">Casual Shoes</a>, <a href="#">Hiking boots</a></span>
+                            <span class="tagged_as">Tags: <a href="#">Pretium</a>, <a href="#">quis</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row mx_5">
+                <div class="pro_page_tabs">
+                    <ul class="nav nav-pills nav_tabs justify-content-center" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Description</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Additional Information</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Reviews (0)</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content tab_content" id="pills-tabContent">
+                        <div class="tab-pane fade show active description_tabs" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                            <h2 class="mb-3">Description</h2>
+                            <h5><strong>Paragraph text</strong></h5>
+                            <p>Nam tristique porta ligula, vel viverra sem eleifend nec. Nulla sed purus augue, eu euismod tellus. Nam mattis eros nec mi sagittis sagittis. Vestibulum suscipit cursus bibendum. Integer at justo eget sem auctor auctor eget vitae arcu. Nam tempor malesuada porttitor. Nulla quis dignissim ipsum. Aliquam pulvinar iaculis justo, sit amet interdum sem hendrerit vitae. Vivamus vel erat tortor. Nulla facilisi. In nulla quam, lacinia eu aliquam ac, aliquam in nisl.</p>
+                            <h5><strong>Unordered list</strong></h5>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Maecenas ullamcorper est et massa mattis condimentum.</li>
+                                <li>Vestibulum sed massa vel ipsum imperdiet malesuada id tempus nisl.</li>
+                                <li>Etiam nec massa et lectus faucibus ornare congue in nunc.</li>
+                                <li>Mauris eget diam magna, in blandit turpis.</li>
+                            </ul>
+                            <h5><strong>Ordered list</strong></h5>
+                            <ol>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                <li>Maecenas ullamcorper est et massa mattis condimentum.</li>
+                                <li>Vestibulum sed massa vel ipsum imperdiet malesuada id tempus nisl.</li>
+                                <li>Etiam nec massa et lectus faucibus ornare congue in nunc.</li>
+                                <li>Mauris eget diam magna, in blandit turpis.</li>
+                            </ol>
+                            <p>In cursus faucibus tortor eu vestibulum. Ut eget turpis ac justo porta varius. Donec vel felis ante, ac vehicula ipsum. Quisque sed diam metus. Quisque eget leo sit amet erat varius rutrum vitae dapibus lectus. Vivamus et sapien ante. Suspendisse potenti. Fusce in tellus est, ac consequat lacus. Nulla risus massa, commodo in imperdiet ut, ornare in leo. Duis pellentesque sagittis lorem, sed mollis lorem venenatis id.</p>
+                        </div>
+                        <div class="tab-pane fade additional_info" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                            <h2>Additional information</h2>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th >Weight</th>
+                                        <td >56 kg</td>
+                                    </tr>
+                                    <tr>
+                                        <th >Dimensions</th>
+                                        <td >122 x 121 x 451 cm</td>
+                                    </tr>
+                                    <tr>
+                                        <th >size</th>
+                                        <td ><p>Large, Medium, Small</p></td>
+                                    </tr>
+                                    <tr>
+                                        <th >color</th>
+                                        <td ><p>Black, Blue, Red</p></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade reviews_tabs" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                            <div>
+                                <h2>Reviews</h2>
+                                <p>There are no reviews yet.</p>
+                            </div>
+                            <div>
+                                <span>Be The First To Review “Blue Style Sneakers”</span>
+                                <p>You must be logged in to post a review.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+        <div class="container-fluid specer m-0">
+            <div class="row mx_5">
+                <div class="section_title">
+                    <h3>Related Products</h3>
+                </div>
+                <div>
+                    <div class="owl-carousel owl-theme" id="latest-product">
+                        <div class="item">
+                            <div class="single_productbg">
+                                <div class="single_proimgbg">
+                                    <a href="product.html">
+                                        <img src="img/asset 10.jpeg" alt="">
+                                        <img src="img/asset 11.jpeg" alt="" class="hover_img">
+                                    </a> 
+                                    <div class="hover_pro_btn">
+                                            <a href="wishlist.html" class="pro_hover_icon"><i class="bi bi-heart"></i></a>
+                                            <a href="cart.html" class="pro_hover_icon"><i class="bi bi-cart"></i></a>
+                                            <a href="product.html" class="pro_hover_icon mb-0"><i class="bi bi-eye"></i></a>
+                                    </div>
+                                    <div class="hoverimg_seloption">
+                                        <a href="product.html">Select options</a>
+                                    </div>
+                                </div>
+                                <div class="product_details">
+                                    <div class="rating">
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="product.html"><h3 class="pro_detailname">Perfect Pace Grey</h3></a>
+                                    </div>
+                                    <div class="pro_detailprice">
+                                        <del class="me-1">£85.00</del>
+                                        <span>- £60.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single_productbg">
+                                <div class="single_proimgbg">
+                                    <a href="product.html">
+                                        <img src="img/asset 12.jpeg" alt="">
+                                        <img src="img/asset 13.jpeg" alt="" class="hover_img">
+                                    </a> 
+                                    <div class="hover_pro_btn">
+                                            <a href="wishlist.html" class="pro_hover_icon"><i class="bi bi-heart"></i></a>
+                                            <a href="cart.html" class="pro_hover_icon"><i class="bi bi-cart"></i></a>
+                                            <a href="product.html" class="pro_hover_icon mb-0"><i class="bi bi-eye"></i></a>
+                                    </div>
+                                    <div class="hoverimg_seloption">
+                                        <a href="product.html">Select options</a>
+                                    </div>
+                                </div>
+                                <div class="product_details">
+                                    <div class="rating">
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="product.html"><h3 class="pro_detailname">Fashion Red Sneakers</h3></a>
+                                    </div>
+                                    <div class="pro_detailprice">
+                                        <span>£80.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single_productbg">
+                                <div class="single_proimgbg">
+                                    <a href="product.html">
+                                        <img src="img/asset 14.jpeg" alt="">
+                                        <img src="img/asset 15.jpeg" alt="" class="hover_img">
+                                    </a> 
+                                    <div class="hover_pro_btn">
+                                            <a href="wishlist.html" class="pro_hover_icon"><i class="bi bi-heart"></i></a>
+                                            <a href="cart.html" class="pro_hover_icon"><i class="bi bi-cart"></i></a>
+                                            <a href="product.html" class="pro_hover_icon mb-0"><i class="bi bi-eye"></i></a>
+                                    </div>
+                                    <div class="hoverimg_seloption">
+                                        <a href="product.html">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="product_details">
+                                    <div class="rating">
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="product.html"><h3 class="pro_detailname">Nike Red Sneakers</h3></a>
+                                    </div>
+                                    <div class="pro_detailprice">
+                                        <del class="me-1">£180.00</del>
+                                        <span>- £100.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single_productbg">
+                                <div class="single_proimgbg">
+                                    <a href="product.html">
+                                        <img src="img/asset 16.jpeg" alt="">
+                                        <img src="img/asset 17.jpeg" alt="" class="hover_img">
+                                    </a> 
+                                    <div class="hover_pro_btn">
+                                            <a href="wishlist.html" class="pro_hover_icon"><i class="bi bi-heart"></i></a>
+                                            <a href="cart.html" class="pro_hover_icon"><i class="bi bi-cart"></i></a>
+                                            <a href="product.html" class="pro_hover_icon mb-0"><i class="bi bi-eye"></i></a>
+                                    </div>
+                                    <div class="hoverimg_seloption">
+                                        <a href="product.html">Select options</a>
+                                    </div>
+                                </div>
+                                <div class="product_details">
+                                    <div class="rating">
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="product.html"><h3 class="pro_detailname">Sneakers Fly White</h3></a>
+                                    </div>
+                                    <div class="pro_detailprice">
+                                        <span>£35.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single_productbg">
+                                <div class="single_proimgbg">
+                                    <a href="product.html">
+                                        <img src="img/asset 18.jpeg" alt="">
+                                        <img src="img/asset 19.jpeg" alt="" class="hover_img">
+                                    </a> 
+                                    <div class="hover_pro_btn">
+                                            <a href="wishlist.html" class="pro_hover_icon"><i class="bi bi-heart"></i></a>
+                                            <a href="cart.html" class="pro_hover_icon"><i class="bi bi-cart"></i></a>
+                                            <a href="product.html" class="pro_hover_icon mb-0"><i class="bi bi-eye"></i></a>
+                                    </div>
+                                    <div class="hoverimg_seloption">
+                                        <a href="product.html">Select options</a>
+                                    </div>
+                                </div>
+                                <div class="product_details">
+                                    <div class="rating">
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="product.html"><h3 class="pro_detailname">Splendid Navy Blue</h3></a>
+                                    </div>
+                                    <div class="pro_detailprice">
+                                        <del class="me-1">£98.00</del>
+                                        <span>- £85.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single_productbg">
+                                <div class="single_proimgbg">
+                                    <a href="product.html">
+                                        <img src="img/asset 20.jpeg" alt="">
+                                        <img src="img/asset 21.jpeg" alt="" class="hover_img">
+                                    </a> 
+                                    <div class="hover_pro_btn">
+                                            <a href="wishlist.html" class="pro_hover_icon"><i class="bi bi-heart"></i></a>
+                                            <a href="cart.html" class="pro_hover_icon"><i class="bi bi-cart"></i></a>
+                                            <a href="product.html" class="pro_hover_icon mb-0"><i class="bi bi-eye"></i></a>
+                                    </div>
+                                    <div class="hoverimg_seloption">
+                                        <a href="product.html">Select options</a>
+                                    </div>
+                                </div>
+                                <div class="product_details">
+                                    <div class="rating">
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="product.html"><h3 class="pro_detailname">Heritage Mark Sneakers</h3></a>
+                                    </div>
+                                    <div class="pro_detailprice">
+                                        <span>£100.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single_productbg">
+                                <div class="single_proimgbg">
+                                    <a href="product.html">
+                                        <img src="img/asset 22.jpeg" alt="">
+                                        <img src="img/asset 23.jpeg" alt="" class="hover_img">
+                                    </a> 
+                                    <div class="hover_pro_btn">
+                                            <a href="wishlist.html" class="pro_hover_icon"><i class="bi bi-heart"></i></a>
+                                            <a href="cart.html" class="pro_hover_icon"><i class="bi bi-cart"></i></a>
+                                            <a href="product.html" class="pro_hover_icon mb-0"><i class="bi bi-eye"></i></a>
+                                    </div>
+                                    <div class="hoverimg_seloption">
+                                        <a href="product.html">Add to Cart</a>
+                                    </div>
+                                </div>
+                                <div class="product_details">
+                                    <div class="rating">
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star star_color"><i class="fa-solid fa-star"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="product.html"><h3 class="pro_detailname">Glam Sports Sneakers</h3></a>
+                                    </div>
+                                    <div class="pro_detailprice">
+                                        <del class="me-1">£85.00</del>
+                                        <span>- £98.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single_productbg">
+                                <div class="single_proimgbg">
+                                    <a href="product.html">
+                                        <img src="img/asset 23.jpeg" alt="">
+                                        <img src="img/asset 24.jpeg" alt="" class="hover_img">
+                                    </a> 
+                                    <div class="hover_pro_btn">
+                                            <a href="wishlist.html" class="pro_hover_icon"><i class="bi bi-heart"></i></a>
+                                            <a href="cart.html" class="pro_hover_icon"><i class="bi bi-cart"></i></a>
+                                            <a href="product.html" class="pro_hover_icon mb-0"><i class="bi bi-eye"></i></a>
+                                    </div>
+                                    <div class="hoverimg_seloption">
+                                        <a href="product.html">Select options</a>
+                                    </div>
+                                </div>
+                                <div class="product_details">
+                                    <div class="rating">
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="product.html"><h3 class="pro_detailname">Beau Black Sneakers</h3></a>
+                                    </div>
+                                    <div class="pro_detailprice">
+                                        <del class="me-1">£120.00</del>
+                                        <span>- £102.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single_productbg">
+                                <div class="single_proimgbg">
+                                    <a href="product.html">
+                                        <img src="img/asset 24.jpeg" alt="">
+                                        <img src="img/asset 12.jpeg" alt="" class="hover_img">
+                                    </a> 
+                                    <div class="hover_pro_btn">
+                                            <a href="wishlist.html" class="pro_hover_icon"><i class="bi bi-heart"></i></a>
+                                            <a href="cart.html" class="pro_hover_icon"><i class="bi bi-cart"></i></a>
+                                            <a href="product.html" class="pro_hover_icon mb-0"><i class="bi bi-eye"></i></a>
+                                    </div>
+                                    <div class="hoverimg_seloption">
+                                        <a href="product.html">Select options</a>
+                                    </div>
+                                </div>
+                                <div class="product_details">
+                                    <div class="rating">
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="product.html"><h3 class="pro_detailname">Casual Black Sneakers</h3></a>
+                                    </div>
+                                    <div class="pro_detailprice">
+                                        <span>£160.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="single_productbg">
+                                <div class="single_proimgbg">
+                                    <a href="product.html">
+                                        <img src="img/asset 8.jpeg" alt="">
+                                        <img src="img/asset 9.jpeg" alt="" class="hover_img">
+                                    </a> 
+                                    <div class="hover_pro_btn">
+                                            <a href="wishlist.html" class="pro_hover_icon"><i class="bi bi-heart"></i></a>
+                                            <a href="cart.html" class="pro_hover_icon"><i class="bi bi-cart"></i></a>
+                                            <a href="product.html" class="pro_hover_icon mb-0"><i class="bi bi-eye"></i></a>
+                                    </div>
+                                    <div class="hoverimg_seloption">
+                                        <a href="product.html">Select options</a>
+                                    </div>
+                                </div>
+                                <div class="product_details">
+                                    <div class="rating">
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                        <a href="#" class="star"><i class="fa-solid fa-star"></i></a>
+                                    </div>
+                                    <div>
+                                        <a href="product.html"><h3 class="pro_detailname">Adidas Golf Sneakers</h3></a>
+                                    </div>
+                                    <div class="pro_detailprice">
+                                        <span>£90.00 - £99.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </main>
+    <!-- start footer -->
+    <footer class="footer_bg">
+        <div class="container-fluid footer_top">
+            <div class="row gy-3 mx_5">
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div>
+                        <h3 class="footer_title">Testimonials</h3>
+                        <div class="owl-carousel owl-theme" id="testimonial">
+                            <div class="item">
+                                <div>
+                                    <div class="footer_slider_heading">
+                                        <a href="#">luies charls</a>
+                                        <div class="footer_testi_design">-(Web Designer)</div>
+                                    </div>
+                                    <div class="footer_testi_text">
+                                        <p class="footer_testi_design">"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, There are m...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <div class="footer_slider_heading">
+                                        <a href="#">Din Desuza</a>
+                                        <div class="footer_testi_design">-(Iphone Developer)</div>
+                                    </div>
+                                    <div class="footer_testi_text">
+                                        <p class="footer_testi_design">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <div class="footer_slider_heading">
+                                        <a href="#">Reema ghurde</a>
+                                        <div class="footer_testi_design">-(Senior Manager)</div>
+                                    </div>
+                                    <div class="footer_testi_text">
+                                        <p class="footer_testi_design">"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem I...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <div class="footer_slider_heading">
+                                        <a href="#">Augustine</a>
+                                        <div class="footer_testi_design">-(Manager)</div>
+                                    </div>
+                                    <div class="footer_testi_text">
+                                        <p class="footer_testi_design">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ip...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    <div class="footer_slider_heading">
+                                        <a href="#">Stephnie</a>
+                                        <div class="footer_testi_design">-(Developer)</div>
+                                    </div>
+                                    <div class="footer_testi_text">
+                                        <p class="footer_testi_design">"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, There are m...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6 ps-xl-5">
+                    <h3 class="footer_title">Information</h3>
+                    <ul>
+                        <li class="footer_menu">
+                            <a href="#" class="footer_sec_text">Bookmark</a>
+                            <a href="#" class="footer_sec_text">Features</a>
+                            <a href="#" class="footer_sec_text">Sitemap</a>
+                            <a href="#" class="footer_sec_text">Lists</a>
+                            <a href="contact.html" class="footer_sec_text">Map & Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6">
+                    <h3 class="footer_title">Extras</h3>
+                    <ul>
+                        <li class="footer_menu">
+                            <a href="#" class="footer_sec_text">Delivery</a>
+                            <a href="cart.html" class="footer_sec_text">Cart</a>
+                            <a href="#" class="footer_sec_text">Terms conditions</a>
+                            <a href="#" class="footer_sec_text">Secure payment</a>
+                            <a href="index.html" class="footer_sec_text">Stores</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <h3 class="footer_title">Our Newsletter</h3>
+                    <p class="footer_testi_design mb-3">Lorem Ipsum is simply dummy text of the printing industry. LoremIpsum has been the industry</p>
+                    <div class="footer_inputbg">
+                        <input type="text" class="input_footer">
+                    </div>
+                    <div>
+                        <ul class="footer_icon">
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <p class="footer_testi_design mb-0">Copyright © 2023 Codezeel</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- start bottom-top btn -->
+    <div class="bottom_top">
+        <a href="#" class="bottom_topbtn"></a>
+    </div>
+    <!-- end bottom-top btn -->
+
+    <!-- jquery -->
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.js"></script>
+    <!-- slick slider -->
+    <script src="js/slick.min.js"></script>
+    <!-- zoom img -->
+    <script src="js/magiczoomplus.js"></script>
+    <!-- fancy box -->
+    <!-- <script src="js/cdnjs.cloudflare.com_ajax_libs_fancybox_2.1.5_jquery.fancybox.min.js"></script> -->
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <script>
+        function counter(s){
+            var	txt=document.getElementById('box');
+            if(s == '-'){
+                if(txt.value>0){
+                    txt.value --;
+                }
+            }
+            if(s == '+'){
+                txt.value++;
+            }
+        }
+
+        // slick-slider-product
+
+    $('.product-img').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        infinite: true,
+        asNavFor: '.thumbnail'
+    });
+    $('.thumbnail').slick({
+        asNavFor: '.product-img',
+        focusOnSelect: true,
+        slidesToShow: 4,
+		slidesToScroll: 1,
+		arrows: true,
+		dots: false,
+        margin: 10,
+        infinite: false
+    });
+    </script>
+</body>
+</html>
